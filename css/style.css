@@ -5,7 +5,7 @@ body{
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
 
-  background: #F9F9F9;
+  background: #FFF;
 
   color: #2C2C2C;
   font-size: 14px;
@@ -57,6 +57,8 @@ ul.navbar-nav li{
 
 .dropdown-item{
   color: rgba(0,0,0,.5);
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
 }
 
 .dropdown-item:hover{
