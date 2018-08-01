@@ -1,0 +1,104 @@
+body{
+  height: 100%;
+
+  /* 300 = light, 400 = regular, 700 = bold */
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+
+  background: #F9F9F9;
+
+  color: #2C2C2C;
+  font-size: 14px;
+
+  padding-bottom: 50px;
+
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* bootstrap customization */
+nav.navbar {
+  height: 5em;
+  font-weight: 400;
+  background-color: #F7F7F7;
+  padding-left: 3rem;
+}
+
+a.navbar-brand {
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  background-color: #74AA50;
+}
+
+.navbar-brand img{
+  position: relative;
+  top:20%;
+}
+
+ul.navbar-nav {
+  padding-right: 3rem;
+}
+
+ul.navbar-nav li{
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.dropdown-toggle:after {
+  display: none;
+}
+
+.dropdown-menu{
+  border-radius: 0;
+  border: none;
+  background-color: #F7F7F7;
+}
+
+.dropdown-item{
+  color: rgba(0,0,0,.5);
+}
+
+.dropdown-item:hover{
+  color: #4A4A4A;
+}
+
+li.active {
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 992px) {
+    nav.navbar{
+      background-color: #74AA50;
+      justify-content: center;
+      padding-left: 0;
+      padding-right: 0;
+
+      height: 3.5rem;
+    }
+
+    .navbar-brand img{
+      top: 10%;
+    }
+
+    .nav-item{
+      padding-top: 0.5rem;
+      padding-bottom: 0.5rem;
+      border-top: 1px solid #DDD;
+    }
+
+    .navbar-toggler {
+      position: absolute;
+      left: 1.5rem;
+
+      border: none;
+    }
+
+    a.navbar-brand {
+      position: relative;
+    }
+
+    .navbar-collapse ul{
+      padding-right: 0;
+    }
+}
