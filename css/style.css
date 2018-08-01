@@ -103,4 +103,8 @@ li.active {
     .navbar-collapse ul{
       padding-right: 0;
     }
+
+    .dropdown-item, .dropdown-menu {
+      background-color: #FFFFFF;
+    }
 }
