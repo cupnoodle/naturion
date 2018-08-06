@@ -1,3 +1,17 @@
+/* Bootstrap customization */
+.carousel-indicators li {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+  border: 1px solid #2C2C2C;
+  background-color: transparent;
+}
+
+.carousel-indicators .active {
+  background-color: #2C2C2C;
+}
+
+/* Page styling */
 .landing-section{
   overflow-x: hidden;
 }
@@ -146,17 +160,43 @@
 }
 
 .fourth .middle-top-text {
-  margin-top: 4.5rem;
+  margin-top: 5rem;
 }
 
-.fourth .middle-center-text {
+.fourth .middle-center-text-desktop {
   margin-top: 4rem;
   margin-left: 5rem;
   margin-right: 5rem;
 }
 
+@media only screen and (max-width: 767px) {
+  .fourth .middle-center-text-desktop {
+    display: none;
+  }
+}
+
+.fourth .middle-center-text-mobile {
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 420px;
+}
+
+@media only screen and (min-width: 768px) {
+  .fourth .middle-center-text-mobile {
+    display: none;
+  }
+}
+
+/* Set fixed height for carousel item to prevent resize of .fourth div when one of the item has shorter height */
+.fourth .carousel-item {
+  height: 120px;
+}
+
 .fourth .middle-bottom-text {
   text-align: center;
-  margin-top: 6rem;
-  margin-bottom: 6rem;
+  margin-top: 12rem;
+  margin-bottom: 8rem;
 }
