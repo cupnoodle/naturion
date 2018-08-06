@@ -138,3 +138,14 @@
 }
 
 
+.fourth {
+  height: 600px;
+  background-image: url('../image/landingLivingRoom.png');
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-size: cover;
+}
+
+.fourth .middle-top-text {
+  margin-top: 4.5rem;
+}
