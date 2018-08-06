@@ -27,6 +27,15 @@
   overflow: hidden;
 }
 
+.first .middle-text{
+  margin-top: 50%;
+}
+
+@media only screen and (max-width: 768px) {
+  .first .middle-text{
+    margin-top: 5%;
+  }
+}
 
 img.left-ring {
   width: 100%; 
@@ -44,12 +53,40 @@ img.right-tower {
   top: 20px;
 }
 
-.middle-text{
-  margin-top: 50%;
+@media only screen and (max-width: 768px) {
+  img.left-ring{
+    width: 120%;
+    left: -15%;
+  }
+
+  img.right-tower{
+    width: 120%;
+    right: -15%;
+  }
 }
 
-@media only screen and (max-width: 992px) {
-  .middle-text{
-    margin-top: 5%;
-  }
+
+.second {
+  background-image: url('../image/landingWomen.png');
+  background-repeat: no-repeat;
+  background-position:center top;
+  background-size: cover;
+}
+
+.second .middle-top-text{
+  margin-top: 7rem;
+}
+
+.second .middle-center-text{
+  max-width: 700px;
+  margin-top: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.second .middle-bottom-text{
+  margin-top: 6rem;
+  margin-bottom: 8rem;
 }
