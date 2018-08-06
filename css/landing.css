@@ -1,5 +1,5 @@
 .landing-section{
-
+  overflow-x: hidden;
 }
 
 .landing-section p{
@@ -15,7 +15,7 @@
 
 .section-headline{
   color: #3C3D41;
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: 400;
 }
 
@@ -23,26 +23,33 @@
   height: 600px;
   background-color: #FFF;
   text-align: center;
+  position: relative;
+  overflow: hidden;
 }
 
-.first .left-ring{
-  position: absolute;
-  top: 220px;
-  left: -120px;
-  background-image: url('../image/na50small.png');
-  background-repeat: no-repeat;
-  background-size: cover; 
-  width: 400px;
-  height: 400px;
+
+img.left-ring {
+  width: 100%; 
+  max-width: 400px; 
+  position:absolute; 
+  left: -20%; 
+  top: 120px;
 }
 
-.first .right-tower{
-  position: absolute;
-  top: 100px;
-  right: -100px;
-  background-image: url('../image/na100small.png');
-  background-repeat: no-repeat;
-  background-size: cover; 
-  width: 400px;
-  height: 600px;
+img.right-tower {
+  width: 100%; 
+  max-width: 400px; 
+  position:absolute; 
+  right: -20%; 
+  top: 20px;
+}
+
+.middle-text{
+  margin-top: 50%;
+}
+
+@media only screen and (max-width: 992px) {
+  .middle-text{
+    margin-top: 5%;
+  }
 }
