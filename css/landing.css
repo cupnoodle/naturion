@@ -160,7 +160,7 @@
 }
 
 .fourth .middle-top-text {
-  margin-top: 5rem;
+  margin-top: 6rem;
 }
 
 .fourth .middle-center-text-desktop {
@@ -197,6 +197,32 @@
 
 .fourth .middle-bottom-text {
   text-align: center;
-  margin-top: 12rem;
+  margin-top: 6rem;
   margin-bottom: 8rem;
+}
+
+.fifth .middle-top-text {
+  margin-top: 5rem;
+}
+
+.fifth .middle-center-text {
+  margin-top: 2rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+
+  max-width: 600px;
+}
+
+.fifth .middle-bottom-text {
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+  margin-left: auto;
+  margin-right: auto;
+
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 550px;
 }

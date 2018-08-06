@@ -16,7 +16,7 @@ body{
   -moz-osx-font-smoothing: grayscale;
 }
 
-/* bootstrap customization */
+/* bootstrap navbar customization */
 nav.navbar {
   height: 5em;
   font-weight: 400;
@@ -138,4 +138,34 @@ li.active {
   color: #FFF;
   padding: 0.5rem 1.9rem;
   border-radius: 1.2rem;
+}
+
+footer {
+  border-top: 8px solid #DEDEDE;
+  background-color: #FCFCFC;
+  padding-top: 5rem;
+}
+
+.footer-desktop {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 830px;
+}
+
+.footer-desktop ul{
+  list-style-type: none;
+  padding-left: 0.5rem;
+}
+
+.footer-desktop ul li{
+  padding-top: 0.35rem;
+  padding-bottom: 0.35rem;
+}
+
+.footer-title{
+  color: #2C2C2C;
+  font-size: 1rem;
+  font-weight: 600;
 }
