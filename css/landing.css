@@ -31,13 +31,7 @@
   margin-top: 50%;
 }
 
-@media only screen and (max-width: 768px) {
-  .first .middle-text{
-    margin-top: 5%;
-  }
-}
-
-img.left-ring {
+.first img.left-ring {
   width: 100%; 
   max-width: 400px; 
   position:absolute; 
@@ -45,7 +39,7 @@ img.left-ring {
   top: 120px;
 }
 
-img.right-tower {
+.first img.right-tower {
   width: 100%; 
   max-width: 400px; 
   position:absolute; 
@@ -54,12 +48,16 @@ img.right-tower {
 }
 
 @media only screen and (max-width: 768px) {
-  img.left-ring{
+  .first .middle-text{
+    margin-top: 5%;
+  }
+
+  .first img.left-ring{
     width: 120%;
     left: -15%;
   }
 
-  img.right-tower{
+  .first img.right-tower{
     width: 120%;
     right: -15%;
   }
@@ -90,3 +88,53 @@ img.right-tower {
   margin-top: 6rem;
   margin-bottom: 8rem;
 }
+
+
+.third {
+
+}
+
+.third img.ring {
+  width: 100%; 
+  position: absolute;
+  bottom: 0px;
+}
+
+.third .right-top-text{
+  margin-top: 5rem;
+}
+
+.third .right-center-text{
+  max-width: 400px;
+  margin-top: 2rem;
+  padding-right: 1rem;
+}
+
+.third .right-bottom-text{
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+@media only screen and (max-width: 768px) {
+  .third {
+    text-align: center;
+  }
+
+  .third img.ring {
+    position: initial;
+  }
+
+  .third .right-center-text{
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
+  .third .right-bottom-text{
+    margin-top: 5rem;
+    margin-bottom: 3rem;
+  }
+}
+
+
