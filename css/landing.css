@@ -10,7 +10,7 @@
 .section-subline{
   color: #2C2C2C;
   font-size: 1rem;
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .section-headline{
@@ -139,7 +139,6 @@
 
 
 .fourth {
-  height: 600px;
   background-image: url('../image/landingLivingRoom.png');
   background-repeat: no-repeat;
   background-position:center top;
@@ -148,4 +147,16 @@
 
 .fourth .middle-top-text {
   margin-top: 4.5rem;
+}
+
+.fourth .middle-center-text {
+  margin-top: 4rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.fourth .middle-bottom-text {
+  text-align: center;
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
