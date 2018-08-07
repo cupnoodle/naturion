@@ -151,7 +151,11 @@ footer {
   margin-right: auto;
   padding-left: 1rem;
   padding-right: 1rem;
+  padding-bottom: 1rem;
   max-width: 830px;
+
+
+  border-bottom: 2px solid #EAEAEA;
 }
 
 .footer-desktop ul{
@@ -164,8 +168,30 @@ footer {
   padding-bottom: 0.35rem;
 }
 
+.footer-desktop a{
+  color: #979797;
+}
+
 .footer-title{
   color: #2C2C2C;
   font-size: 1rem;
   font-weight: 600;
+}
+
+.footer-copyright {
+  text-align: center;
+  padding-top: 2.5rem;
+  color: #979797;
+}
+
+.footer-copyright p{
+  margin-bottom: 0.5rem;
+}
+
+.footer-copyright a {
+  color: #2C2C2C;
+}
+
+.footer-copyright .copyright{
+  font-size: 0.8rem;
 }
