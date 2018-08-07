@@ -132,6 +132,31 @@ li.active {
     }
 }
 
+/* Bootstrap Accordion customization */
+.accordion .card {
+  border-radius: 0;
+  background-color: #FCFCFC;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+}
+
+.card .card-header{
+  background-color: transparent;
+  padding-left: 0.5rem;
+}
+
+.card-header .fa {
+  position: absolute;
+  top: 1.4rem;
+  right: 1rem;
+}
+
+.card-body{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
 /* custom styling */
 .green-button{
   background-color: #7AA550;
@@ -149,10 +174,10 @@ footer {
 .footer-desktop {
   margin-left: auto;
   margin-right: auto;
-  padding-left: 1rem;
-  padding-right: 1rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
   padding-bottom: 1rem;
-  max-width: 830px;
+  max-width: 860px;
 
 
   border-bottom: 2px solid #EAEAEA;
@@ -170,6 +195,30 @@ footer {
 
 .footer-desktop a{
   color: #979797;
+}
+
+.footer-mobile {
+  margin-left: 1rem;
+  margin-right: 1rem;
+}
+
+.footer-mobile .btn-link {
+  color: #2C2C2C;
+}
+
+.footer-mobile ul{
+  list-style-type: none;
+  padding-left: 0.2rem;
+  margin-bottom: 0;
+}
+
+.footer-mobile ul li{
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.footer-mobile a {
+  color: #2C2C2C;
 }
 
 .footer-title{
@@ -194,4 +243,20 @@ footer {
 
 .footer-copyright .copyright{
   font-size: 0.8rem;
+}
+
+@media only screen and (max-width: 767px) {
+  footer {
+    border-top: 1px solid #DEDEDE;
+  }
+
+  .footer-desktop {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .footer-mobile {
+    display: none;
+  }
 }
